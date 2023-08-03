@@ -1,0 +1,30 @@
+/* ------------------------------- CONTACT PAGE -------------------------------- */
+
+#contact-box-row{
+    justify-content: center;
+    margin: 0px;
+}
+#contact::before{
+    content: none;
+}
+
+
+
+
+
+/* -------------------------------- FEEDBACK PAGE ----------------------------------- */
+
+.form-btn{
+    margin: 10px 0px;
+}
+
+
+
+
+/* ------------------------------- LOGIN PAGE ----------------------------- */
+
+#login-box {
+    padding: 30px 30px;
+    width: 90%;
+    max-width: 450px;
+}

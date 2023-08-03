@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Study Guide | Feedback Form</title>
+    <link rel="stylesheet" href="css/ContactLoginFeedbackstyle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 829px)" href="css/phone-2.css">
+    <link rel="shortcut icon" href="images/logo/logo favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+
+<body>
+    
+    <section id="feedback-section" class="container font-notosans">
+        
+        <h1 class="h-primary text-center">User Feedback Form</h1>
+        <p class="text-center">Share your experience with us!</p>
+        <p class="text-center">Your satisfaction is our top priority, and your feedback plays a vital role in shaping our services. Your feedback is essential for us to understand what's working well and identify areas that need improvement. By sharing your experience, you're contributing to our ongoing efforts to provide the best possible service.<br>Please take a moment to provide your valuable insights to help us serve you better.</p>
+        
+        <div class="container">
+            
+            <div class="row">
+                <form action="">
+                    
+                    <fieldset class="form-control field">
+                        <legend class="legend-text">Contact Information</legend>
+                        <div class="container form-row form-row-colorless">
+                            <div class="row">
+                                <label for="" class="feedback-label  form-color2">Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="row">
+                                <label for="" class="feedback-label">Email</label>
+                                <input type="email" class="form-control">
+                            </div>
+                        </div>
+                    </fieldset>            
+                    
+                    <fieldset class="form-control field">
+                        <legend class="legend-text">Relevant Questions</legend>
+                        <div class="container">
+                            
+                            <div class="row">
+                                <!-- sm stands for social media -->
+                                <label for="" class="feedback-label">1. How did you hear about us?</label>
+                                <div class="form-check">
+                                    <input type="checkbox" id="sm1" class="form-check-input">
+                                    <label for="sm1" class="form-check-label">Online Search</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="sm2" class="form-check-input">
+                                    <label for="sm2" class="form-check-label">Social Media</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="sm3" class="form-check-input">
+                                    <label for="sm3" class="form-check-label">Referral</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="sm4" class="form-check-input">
+                                    <label for="sm4" class="form-check-label">Advertisement</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="sm5" class="form-check-input">
+                                    <label for="sm5" class="form-check-label">Other</label>
+                                </div>
+                            </div>
+                            
+                            <div class="row ">
+                                <label for="" class="feedback-label">2. How likely are you to recommend us to a friend?</label>
+                                <div class="form-check">
+                                    <input type="radio" id="recommend-5" name="ques-1" class="form-check-input">
+                                    <label for="recommend-5" class="form-check-label">Very Likely</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" id="recommend-4" name="ques-1" class="form-check-input">
+                                    <label for="recommend-4" class="form-check-label">Likely</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" id="recommend-3" name="ques-1" class="form-check-input">
+                                    <label for="recommend-3" class="form-check-label">Neutral</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" id="recommend-2" name="ques-1" class="form-check-input">
+                                    <label for="recommend-2" class="form-check-label">Unlikely</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" id="recommend-1" name="ques-1" class="form-check-input">
+                                    <label for="recommend-1" class="form-check-label">Very Unlikely</label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="form-control field">
+                        <legend class="legend-text">Rating</legend>
+                        <div class="container form-row">
+                            <table class="table table-striped">
+                                <thead>
+                                    <th></th>
+                                    <th id="rate-1" class="text-center">Highly Dissatisfied</th>
+                                    <th id="rate-2" class="text-center">Dissatisfied</th>
+                                    <th id="rate-3" class="text-center">Average</th>
+                                    <th id="rate-4" class="text-center">Satisfied</th>
+                                    <th id="rate-5" class="text-center">Highly Satisfied</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Quality of Resources</td>
+                                        <td class="text-center form-color2"><input type="radio" name="rating-ques1" class="form-check-input "></td>
+                                        <td class="text-center form-color2"><input type="radio" name="rating-ques1" class="form-check-input color-gray"></td>
+                                        <td class="text-center form-color2"><input type="radio" name="rating-ques1" class="form-check-input color-gray"></td>
+                                        <td class="text-center form-color2"><input type="radio" name="rating-ques1" class="form-check-input color-gray"></td>
+                                        <td class="text-center form-color2"><input type="radio" name="rating-ques1" class="form-check-input color-gray"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ease of Navigation</td>
+                                        <td class="text-center form-color2"><input type="radio" name="rating-ques2" class="form-check-input color-gray"></td>
+                                        <td class="text-center form-color2"><input type="radio" name="rating-ques2" class="form-check-input color-gray"></td>
+                                        <td class="text-center form-color2"><input type="radio" name="rating-ques2" class="form-check-input color-gray"></td>
+                                        <td class="text-center form-color2"><input type="radio" name="rating-ques2" class="form-check-input color-gray"></td>
+                                        <td class="text-center form-color2"><input type="radio" name="rating-ques2" class="form-check-input color-gray"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Customer Care Support</td>
+                                        <td class="text-center form-color2"><input type="radio" name="rating-ques3" class="form-check-input color-gray"></td>
+                                        <td class="text-center form-color2"><input type="radio" name="rating-ques3" class="form-check-input color-gray"></td>
+                                        <td class="text-center form-color2"><input type="radio" name="rating-ques3" class="form-check-input color-gray"></td>
+                                        <td class="text-center form-color2"><input type="radio" name="rating-ques3" class="form-check-input color-gray"></td>
+                                        <td class="text-center form-color2"><input type="radio" name="rating-ques3" class="form-check-input color-gray"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Overall Experience of Website</td>
+                                        <td class="text-center form-color2"><input type="radio" name="rating-ques4" class="form-check-input color-gray"></td>
+                                        <td class="text-center form-color2"><input type="radio" name="rating-ques4" class="form-check-input color-gray"></td>
+                                        <td class="text-center form-color2"><input type="radio" name="rating-ques4" class="form-check-input color-gray"></td>
+                                        <td class="text-center form-color2"><input type="radio" name="rating-ques4" class="form-check-input color-gray"></td>
+                                        <td class="text-center form-color2"><input type="radio" name="rating-ques4" class="form-check-input color-gray"></td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="form-control field form-row">
+                        <legend class="legend-text">Open Ended Question</legend>
+                        <div class="container">
+                            <div class="row">
+                                <label for="" class="form-check-label feedback-label">Any suggestions for the improvement of our website?</label>
+                                <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                            </div>
+                            
+                        </div>
+                    </fieldset>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button type="reset" class="btn btn-danger form-btn">Reset</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button type="submit" class="btn btn-primary form-btn">Submit</button>
+                        </div>
+                    </div>
+                    <div class="row form-row text-center">
+                        <p id="thank-you">Thank you for taking the time to provide feedback. Your input is highly valued and will help us enhance our offerings and serve you better in the future. If you have any further questions or concerns, please feel free to reach out to our customer support team.</p>
+                    </div>
+                </form>
+
+    </section>
+    <script src="script/script2.js"></script>
+    
+</body>
+</html>

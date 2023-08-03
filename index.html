@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Study Guide | Access Notes Anytime Anywhere</title>
+    <link rel="shortcut icon" href="images/logo/logo favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1038px)" href="css/phone.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+</head>
+
+
+<body>
+
+    <header>
+        <nav id="navbar">
+            <div id="left">
+                <img src="images/logo/logo.png" alt="logo">
+                <span class="font-ubuntu">My Study Guide</span>
+            </div>
+            <div id="mid">
+                <ul>
+                    <li class="nav-item"><a href="#" class="font-ubuntu">Home</a></li>
+                    <li class="nav-item"><a href="#about-us" class="font-ubuntu">About Us</a></li>
+                    <li class="nav-item"><a href="#get-resources" class="font-ubuntu">Resources</a></li>
+                    <li id="feedback-link" class="nav-item"><a href="feedback.html" target="_blank" class="font-ubuntu">Feedback</a></li>
+                    <li class="nav-item"><a href="contact.html" target="_blank" class="font-ubuntu">Contact Us</a></li>
+                </ul>
+            </div>
+            <div id="right" >
+                <a href="#"><button class="login-button-template font-ubuntu" onclick = openLoginPage()>Log In</button></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div id="home-left" class="home-item text-left">
+                <h1 class="h-primary">My Study Guide</h1>
+                <p class="font-notosans">
+                    Ultimate free resources to ace in your study.
+                    <br>Everything you need, in one streamlined platform.
+                </p>
+                <div id="phone-login">
+                    <a href="#"><button class="login-button-template font-ubuntu" onclick = openLoginPage()>Log In</button></a>
+                </div>
+            </div>
+            <div id="home-right" class="home-item text-center">
+                <img src="images/home/pc2-removebg-preview.png" alt="study online with free resources">
+            </div>
+        </section>
+
+        <section id="get-resources" class="font-ubuntu">
+            <h1 class="h-primary text-center">Get Resources</h1>
+            <div id="classes">
+                <div id="class-item1" class="class-item text-center" onclick="location.href='class-10.html';">
+                    <img src="images/classes/class10.png" alt="CLASS 10">
+                    <span>Class 10</span>
+                </div>
+                <div id="class-item2" class="class-item text-center" onclick="location.href='class-11.html';">
+                    <img src="images/classes/class11.png" alt="CLASS 11">
+                    <span>Class 11</span>
+                </div>
+                <div id="class-item3" class="class-item text-center" onclick="location.href='class-12.html';">
+                    <img src="images/classes/class12.png" alt="CLASS 12">
+                    <span>Class 12</span>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="about-us">
+
+            <h1 class="h-primary text-center">About Us</h1>
+
+            <div class="about-us-div">
+                <h2 class="h-primary-2 about-us-h2 text-center">What is My Study Guide?</h2>
+                <div class="div2">
+                    <p class="font-notosans div2-child text-center">Welcome to My Study Guide! It is a free resources website. We are dedicated to providing a wide range of educational materials and resources to support school learners. My Study Guide is an educational website offering free resources for students for classes 10th, 11th and 12th.<br>It was developed with an intension to provide quality content for anyone to access and ace in their studies. We believe that education should be inclusive and available to everyone, regardless of financial constraints. The course curriculum is based as per the CBSE syllabus (The deleted portion of batch 2020 is also included). It can be accessed Anytime, Anywhere and by Anyone. You just need a stable internet connection and a smart device. That's it!!!<br>We have designed our website with user-friendly navigation in mind. You can easily browse through different subjects, grade levels, or specific topics to find the resources you need. </p>
+                    <figure  class="div2-child text-center">
+                        <img src="images/about/girl.png" alt="" id="img1">
+                    </figure>
+                </div>
+            </div>
+            
+            <div id="about-us-services" class="about-us-div">
+                <h2 class="h-primary-2 about-us-h2 text-center">Our Services</h2>
+                <div class="div2">
+                    <ul class="font-notosans  div2-child" >
+                        <li><span>Extensive Collection :</span> We offer an extensive collection of free educational resources across various subjects and disciplines.</li>
+                        <li><span>Comprehensive Subjects :</span> Our resources cover a wide range of subjects, including math, science, social sciences and computer science.</li>
+                        <li><span>Quality Assurance :</span> We are committed to providing high-quality educational resources. Our team carefully curates and reviews each resource to ensure accuracy, relevance, and educational value.</li>
+                        <li><span>Reliable Content :</span>We aim to deliver content that is informative, engaging, and reliable.</li>
+                        <li><span>Regular Updates :</span> We are continuously expanding and updating our collection of resources. Our team is dedicated to adding new materials, incorporating user feedback, and staying up-to-date with the latest educational trends.</li>
+                        <li><span>Accessible and Free :</span> Our commitment to education extends to making resources accessible to all. All the resources on our website are completely free to access.</li>
+                    </ul>
+
+                    <figure  class="div2-child text-center">
+                        <img src="images/about/features.png" alt="" id="img2">
+                    </figure>
+                </div>
+            </div>
+            
+            <div class="about-us-div">
+                <h2 class="h-primary-2 about-us-h2 text-center">Our Developer</h2>
+                <div class="div2.">
+                    <p class="font-notosans">My Study Guide is created and developed by Me - Smitanna Mandal.<br>I am a student of IGDTUW, persuing B.Tech in CSE.<br>I had made well structured, easily understandable and complete notes during my school time. I wanted to help students with their studies with my notes because these are very interactive and self sufficient resource that a student can refer to. Also those who don't have any resources to rely on during their exams, they can definitely access these resources and ace in their studies.</p>
+                </div>
+            </div>
+            
+            <div class="about-us-div">
+                <h2 class="h-primary-2 about-us-h2 text-center">New Features Coming Soon</h2>
+                <div class="div2">
+                    <ul class="font-notosans  div2-child">
+                        <li>Test series for each chapter to enhance understanding, engagement and improvement in the learner.</li>
+                        <li>Chapter wise Quiz to revise the concepts.</li>
+                        <li>Question bank for each chapter for practicing and acing almost every topic.</li>
+                        <li>YouTube video recommendation for each chapter.</li>
+                        <li>Collaborative learning spaces where users can connect with peers, form study groups, and collaborate on projects. These spaces will encourage interaction, discussion, and knowledge sharing among learners.</li>
+                        
+                    </ul>
+                    <figure  class="div2-child text-center">
+                        <img src="images/about/youtube.png" alt="" id="img3">
+                    </figure>
+    
+                </div>
+                
+            </div>
+            <div class="about-us-div">
+                <h2 class="h-primary-2 about-us-h2 text-center">A Message By The Developer</h2>
+                <div class="div2.">
+                    <p class="font-notosans">Thank you for visiting our free resources website. We hope you find our materials valuable in your learning journey. Start exploring and enjoy the benefits of free and accessible education!</p>
+                    <p class="font-notosans">We value your input. If you have suggestions, feedback, or requests for specific resources, we encourage you to reach out to us. Your feedback helps us improve our website and ensure we meet the needs of our users.</p>
+                    <a href="feedback.html" target="_blank" id="about-us-feedback" class="text-center"><button class="login-button-template font-ubuntu">Feedback Form</button></a>
+    
+                </div>
+                
+            </div>
+            
+        </section>
+        
+    </main>
+
+    
+    <footer id="footer">
+
+        <div id="icon-footer" class="footer-div">
+            <a href=""><img src="images/footer/facebook.png" alt="" class="social-icon"></a>
+            <a href="https://www.instagram.com/smitanna_2003/"><img src="images/footer/instagram.png" alt="" class="social-icon"></a>
+            <a href="https://twitter.com/m_smitanna"><img src="images/footer/twitter.png" alt="" class="social-icon"></a>
+            <a href=""><img src="images/footer/youtube.png" alt="" class="social-icon"></a>
+            <a href="https://www.linkedin.com/in/smitanna-mandal-0ab212240"><img src="images/footer/linkedin.png" alt="" class="social-icon"></a>
+            <a href="https://github.com/Smitanna18"><img src="images/footer/github.png" alt="" id="github-img" class="social-icon"></a>
+        </div>
+
+        <div id="text-footer" class="footer-div">
+            <a href="#">Home</a>
+            <a href="#about-us-services">Services</a>
+            <a href="#about-us">About</a>
+            <a href="">Privacy Policy</a>
+            <a href="contact.html" target="_blank">Contact</a>
+        </div>
+
+        <p id="copyright" class="font-notosans text-center">
+            Copyright &copy; My Study Guide. All rights reserved.
+        </p>
+
+    </footer>
+
+    <script src="script/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+/* ------------------------------CSS RESET ----------------------------------- */
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+
+
+
+
+/* ------------------------------- CONTACT PAGE -------------------------------- */
+
+#contact::before{
+    content: "";
+    background: url("../images/contact/contactGirl.avif") no-repeat center center/cover;
+    position: absolute;
+    top: 221px;
+    left: 800px;
+    height: 566px;
+    width: 45%;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+#contact-box{
+    margin: 28px;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 40px;
+    background-color: #639aff0a;
+}
+
+.form-row{
+    padding: 12px 0px;
+}
+
+.form-row input, .form-row textarea, .form-row select{
+    padding: 10px;
+    background-color: inherit;
+    font-size: 1.1rem;    
+}
+
+.form-color input, .form-color textarea, .form-color select{
+    border: 2px solid black;
+}
+
+.form-row textarea{
+    height: 188px;
+}
+
+.form-btn{
+    width: 100%;
+}
+
+
+
+
+
+
+/* -------------------------------- FEEDBACK PAGE ----------------------------------- */
+
+.field{
+    margin: 20px 0px;
+}
+
+#feedback-section {
+    line-height: 1.5;
+}
+#feedback-section h1{
+    margin: 30px 10px;
+}
+
+.feedback-label{
+    line-height: 2;
+    padding: 0px !important;
+    margin: 10px 0px !important;
+}
+
+.form-color2 input, .form-color2 textarea, .form-color2 select{
+    border: 2px solid gray;
+}
+
+#thank-you{
+    margin: 20px 0px 40px 0px;
+}
+
+.legend-text{
+    color: rgb(79, 3, 112);
+}
+
+
+
+
+/* --------------------------------- LOGIN PAGE ------------------------------- */
+
+#login-body{
+    background-color: rgba(0, 115, 248, 0.12);
+}
+
+.login-container{
+    margin-top: 200px;
+}
+
+#login-box {
+    padding: 30px 60px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.main-row{
+    justify-content: center;
+}
+
+#signup-div{
+    margin: 20px;
+    text-align: center;
+}
+
+
+
+
+
+/* --------------------------------- UTILITY CLASSES ------------------------------- */
+
+.color-gray{
+    color: gray;
+}
